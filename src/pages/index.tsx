@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { homedir } from 'os'
 import Header from '../Components/Header/Header'
 import { Function, Img, Infos, Intro, LinkProjects, Logo, Name } from '../styles/styles'
-import { AboutMe, Container } from './portifolio/Portifolio'
+import { AboutMe, Container } from '../styles/Portifolio'
 import {FaArrowRight} from "react-icons/fa"
 import { Content } from '../styles/home'
 

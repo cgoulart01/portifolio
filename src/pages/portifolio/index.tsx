@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { Created_at, TitleProject, Url } from '../../styles/styles'
 import { formatedDate } from '../../utils/formatToUTC'
-import { Container, Content, LiRepos, UlRepos } from './Portifolio'
+import { Container, Content, LiRepos, UlRepos } from '../../styles/Portifolio'
 
 
 

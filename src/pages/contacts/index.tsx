@@ -1,6 +1,6 @@
 import React from 'react'
 import { Infos, Intro, Name } from '../../styles/styles'
-import { Container } from '../portifolio/Portifolio'
+import { Container } from '../../styles/Portifolio'
 import "../../styles/portifolio.module.scss"
 import Link from 'next/link'
 const Contacts: React.FC = () => {
