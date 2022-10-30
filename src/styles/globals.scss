@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+@import "./link.scss";
   
   
 *,html {
@@ -14,19 +14,19 @@
 
 body{
   text-align:-webkit-center;
-  &::-webkit-scrollbar{
-    width: 12px;
-    border-radius:10px;
-    background-color:whitesmoke;
-}
-&::-webkit-scrollbar-thumb{
-    border-radius:10px;
-    background-color: darkgray;
-}
 }
 
 a,button{
   cursor:pointer;
   text-decoration:none;
   text-transform:none;
+}
+::-webkit-scrollbar{
+  width:12px;
+  border-radius:10px;
+  background-color:whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+  border-radius:10px;
+  background-color:#888
 }
